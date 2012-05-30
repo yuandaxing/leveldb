@@ -1,0 +1,31 @@
+9
+
+dir
+27
+http://leveldb.googlecode.com/svn/trunk/include
+http://leveldb.googlecode.com/svn
+
+
+
+2011-04-20T22:48:11.870300Z
+24
+dgrogan@chromium.org
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+62dab493-f737-651d-591e-8d6aee1b9529
+
+leveldb
+dir
+
