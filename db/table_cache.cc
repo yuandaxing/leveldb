@@ -54,7 +54,7 @@ Iterator* TableCache::NewIterator(const ReadOptions& options,
   EncodeFixed64(buf, file_number);
   Slice key(buf, sizeof(buf));
   Cache::Handle* handle = cache_->Lookup(key);
-  if (handle == NULL) {
+  if (handle == NULL) { // create table cache entry
     std::string fname = TableFileName(dbname_, file_number);
     RandomAccessFile* file = NULL;
     Table* table = NULL;
