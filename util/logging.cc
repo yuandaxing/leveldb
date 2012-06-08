@@ -19,6 +19,10 @@ void AppendNumberTo(std::string* str, uint64_t num) {
   str->append(buf);
 }
 
+
+/*-----------------------------------------------------------------------------
+ *  for character that cannot show, display the code
+ *-----------------------------------------------------------------------------*/
 void AppendEscapedStringTo(std::string* str, const Slice& value) {
   for (size_t i = 0; i < value.size(); i++) {
     char c = value[i];
